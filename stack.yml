@@ -1,4 +1,5 @@
-# MediaWiki with MariaDB
+environment:
+      MYSQL_ROOT_PASSWORD:# MediaWiki with MariaDB
 #
 # Access via "http://localhost:8080"
 #   (or "http://$(docker-machine ip):8080" if using docker-machine)
@@ -25,4 +26,4 @@ services:
       MYSQL_DATABASE: my_wiki
       MYSQL_USER: wikiuser
       MYSQL_PASSWORD: example
-      MYSQL_RANDOM_ROOT_PASSWORD: 'yes'
+      MYSQL_ROOT_PASSWORD: burgerking
