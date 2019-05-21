@@ -1,4 +1,4 @@
-environment:
+RANDOMenvironment:
       MYSQL_ROOT_PASSWORD:# MediaWiki with MariaDB
 #
 # Access via "http://localhost:8080"
@@ -26,4 +26,4 @@ services:
       MYSQL_DATABASE: my_wiki
       MYSQL_USER: wikiuser
       MYSQL_PASSWORD: example
-      MYSQL_ROOT_PASSWORD: burgerking
+      MYSQL_RANDOMROOT_PASSWORD: 'yes'
